@@ -9,11 +9,6 @@ a {
     font-weight: 600;
 }
 
-li {
-    display: inline-block;
-    margin-right: 180px;
-}
-
 .inicioModel {
     padding: 100px;
 }
@@ -27,11 +22,8 @@ li {
 
 .inicioParr {
     text-align: justify;
+    display: inline-block;
     font-size: 150%;
-    position: absolute;
-    left: 55%;
-    top: 50%;
-    right: 3%;
 }
 
 .textoFooter {
@@ -49,3 +41,34 @@ li {
 .tituloMenu {
     text-align: center;
 }
+
+.imagenBar {
+    max-width: 100%;
+}
+
+.navegacion {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contededorParr {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 400px;
+}
+
+
+@media (max-width: 600px) {
+    .imagenBar {
+        width: 100%;
+    }
+    .tituloPrincipal {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 168px) {
+
+  }
